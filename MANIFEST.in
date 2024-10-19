@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include aqiq_reports_filter *.css
+recursive-include aqiq_reports_filter *.csv
+recursive-include aqiq_reports_filter *.html
+recursive-include aqiq_reports_filter *.ico
+recursive-include aqiq_reports_filter *.js
+recursive-include aqiq_reports_filter *.json
+recursive-include aqiq_reports_filter *.md
+recursive-include aqiq_reports_filter *.png
+recursive-include aqiq_reports_filter *.py
+recursive-include aqiq_reports_filter *.svg
+recursive-include aqiq_reports_filter *.txt
+recursive-exclude aqiq_reports_filter *.pyc
