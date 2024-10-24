@@ -1,4 +1,5 @@
 from . import __version__ as app_version
+from aqiq_reports_filter.custom_report import Report
 
 app_name = "aqiq_reports_filter"
 app_title = "Aqiq Reports Filter"
