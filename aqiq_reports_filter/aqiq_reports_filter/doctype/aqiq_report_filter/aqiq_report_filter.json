@@ -1,0 +1,70 @@
+{
+ "actions": [],
+ "creation": "2013-08-02 13:45:23",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "report_doctype",
+  "fieldname",
+  "column_break_3",
+  "report_module"
+ ],
+ "fields": [
+  {
+   "fieldname": "report_doctype",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Doctype",
+   "options": "DocType",
+   "reqd": 1
+  },
+  {
+   "fieldname": "fieldname",
+   "fieldtype": "Select",
+   "ignore_user_permissions": 1,
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Fieldname",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_3",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "report_module",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Module",
+   "options": "Module Def",
+   "reqd": 1
+  }
+ ],
+ "icon": null,
+ "idx": 1,
+ "issingle": 0,
+ "links": [],
+ "modified": "2024-05-21 12:05:04.750268",
+ "modified_by": "Administrator",
+ "module": "Aqiq Reports Filter",
+ "name": "Aqiq Report Filter",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1,
+   "delete": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "ASC",
+ "track_changes": 1
+}
